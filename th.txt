@@ -1,0 +1,42 @@
+programming language --> programming language is a set of instruction given to perform specif task.
+ex : c , cpp , java
+void main()
+
+scriptting language : scriptting language is s subset of programming language.
+ex : html , css , js , python
+
+single line --> write code
+
+
+there are two types of pages.
+1. static pages
+2. dynamic pages
+
+
+there are three ways to define js.
+1. external [.js] 
+2. internal <script>
+3. inline
+
+
+
+History of javascript.
+Java Script was devloped by brenden eich in 1995. for netscap navigator browser.
+javaScript engines :
+- spidermonkey -> firefox
+- chakra -> internet exporer
+- v8 -> google chrome [node]
+- javaScript core : safari 
+- rhino : java 
+
+JavaScript have no data type.
+
+there are three keyword here.
+1. var --> global scope
+2. let --> local scope / block scope
+3. const --> block scope and can't change there value
+
+
+{
+
+}
