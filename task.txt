@@ -1,0 +1,42 @@
+Welcome to bank 
+var pin = 6354
+var avlabl = 35000;
+fun checkBal()
+{
+	return avlbal;
+}
+fun withdrwa()
+{
+	Enter amount
+	amount < avlbal
+	{
+		Succefully withdra
+		avlbal - amount
+	}
+	else{
+		insufficient bal
+	}
+}
+Do u want entr in atm
+{
+	Entr Acco no :
+	Enter Upin :
+		upin == pin
+		{
+			1. check bal
+			2. withdrwa
+			3. deposit
+			Enter ur choice
+
+			case 1: x = chebal()
+				break;
+			case 2: withdrwa();
+				break;
+		}
+		{
+			Incorrect pin 
+		}
+}else
+{
+	Thanku for visiting bob
+}
