@@ -1,8 +1,9 @@
 Welcome to bank 
 var pin = 6354
-var avlabl = 35000;
+
 fun checkBal()
 {
+    let avlbal = 3500
 	return avlbal;
 }
 fun withdrwa()
@@ -11,7 +12,7 @@ fun withdrwa()
 	amount < avlbal
 	{
 		Succefully withdra
-		avlbal - amount
+		avlbal - amount  (   let x = checkbal()           )
 	}
 	else{
 		insufficient bal
