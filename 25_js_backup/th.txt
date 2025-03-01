@@ -1,0 +1,15 @@
+JavaScritp -- > To manipulate the DOM(Document object model)
+
+
+
+identifier :
+1 . id  -- uniqui
+2. class -- multiple
+3. name -- multiple
+4. tagName -- multiple
+5. querrySelectore
+
+
+Event :
+
+Onclick
