@@ -73,6 +73,17 @@ var departments = [
     },
 ]
 
+
+// var x = departments.find((depart)=> depart.name === "Finance").employees.filter((emp)=> emp.age > 35)
+// console.log(x);
+
+
+// var x = departments.map((depart)=> depart.employees.filter((emp)=> emp.gender === "female"))
+// console.log(x);
+
+
+
+
 // find -- > single 
 
 
@@ -80,8 +91,8 @@ var departments = [
 // console.log(x);
 
 
-var x = departments.map((depart)=> depart.employees.filter((emp)=> emp.gender === "male"))
-console.log(x);
+// var x = departments.map((depart)=> depart.employees.filter((emp)=> emp.gender === "male"))
+// console.log(x);
 
 
 
