@@ -130,6 +130,18 @@ var company = [
     
 ]
 
+// let findAvgSal = company.map((comp)=> comp.employees.reduce((sum,emp)=> sum + emp.salary/3,0))
+// console.log(findAvgSal);
+
+
+// let findEmp = company.find((comp)=> comp.employees.some((emp)=> emp.name == "riya"))
+// console.log(findEmp.name);
+
+
+
+// let x = company.reduce((sum,comp)=> sum + comp.employees.length,0)
+// console.log(x);
+
 
 
 // 1.  Find the total number of employees in all companies.
