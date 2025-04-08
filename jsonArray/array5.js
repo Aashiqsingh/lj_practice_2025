@@ -130,6 +130,30 @@ var company = [
     
 ]
 
+// var marriedPeople = company.map((comp)=> comp.employees.filter((emp)=> emp.IsMarried))
+// console.log(marriedPeople);
+
+// var marriedPeople = company.forEach((comp)=>{
+//     comp.employees.forEach((emp)=>{
+//         if(emp.IsMarried)
+//         {
+//             console.log(emp.name);
+            
+//         }
+//     })
+// })
+
+let countNotMarried = company.map((comp)=> comp.employees.reduce((sum,emp)=> sum + !emp.IsMarried,0)).reduce((sum,emp)=> sum + emp ,0)
+console.log(countNotMarried);
+
+
+
+
+// const findChild = company.map((comp)=> comp.employees.reduce((sum,emp)=> sum + emp.child,0)).reduce((sum,num)=> sum + num,0)
+// console.log(findChild);
+
+
+
 // let findAvgSal = company.map((comp)=> comp.employees.reduce((sum,emp)=> sum + emp.salary/3,0))
 // console.log(findAvgSal);
 
