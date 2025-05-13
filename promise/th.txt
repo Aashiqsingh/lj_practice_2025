@@ -1,0 +1,24 @@
+Promise -->  pending--- (resolve,reject)
+
+Promise -- class -- object
+
+
+-------------------------------------------
+1. sync 
+    1. block sync 
+        - then catch
+    2. function sync
+        - async await 
+2. non-sync 
+    - javaScript -- non_sync
+
+
+
+-------------------------------------------
+
+console.log("Starting");
+
+
+console.log("This is the program...) -- 1 min
+
+console.log("Ending");
